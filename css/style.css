@@ -88,13 +88,6 @@ a{
   font-size: 16px;
   font-weight: 600;
 }
-.user-info {
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  padding: 10px;
-}
 
 fieldset {
   border-color: #E8E8E8;
@@ -103,17 +96,50 @@ fieldset {
   border-top: none;
   margin-bottom: 2em;
 }
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  height: 127px;
+}
+.user-info__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-img {
+  margin-left: 20px;
+}
 .user-profile {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  margin-right: 17px;
+}
+.user-name {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.user-grade {
+  font-size: 14px;
 }
 .user-status {
+  display: flex;
+  justify-content: space-between;
   background-color: #f6f6f6;
-  padding: 5px 0px;
+  width: 204px;
+  height: 30px;
+  margin-top: 14px;
+  align-items: center;
+}
+.user-status span {
+  margin-left: 12px;
+  font-size: 12px;
 }
 .user-status > .fa-caret-down {
-  margin-left: 50px;
+  margin-right: 10px;
 }
 .resume {
   display: flex;
