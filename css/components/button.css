@@ -1,0 +1,11 @@
+.long-button {
+   width: 350px;
+   height: 47px;
+   background-color: #F9F9F9;
+   border: none;
+   border-radius: 3px;
+   margin: 12px 0;
+   color: #2D2D2D;
+   font-weight: 500;
+   font-size: 14px;
+}
