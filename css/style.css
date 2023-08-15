@@ -1,8 +1,10 @@
 @import "components/page-header.css";
 @import "components/button.css";
 @import "variables.css";
+@import "reset.css";
 
 @import "pages/info_company.css";
+@import "pages/community.css";
 
 @font-face {
   font-family: 'Pretendard-Regular';
@@ -14,7 +16,9 @@
 body {
   font-family: 'Pretendard-Regular';
   width: 390px;
+  margin: 0px;
 }
+
 
 .main-title{
   margin-left: 20px;

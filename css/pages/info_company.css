@@ -17,8 +17,25 @@
 
 .back-img {
     z-index: 2;
+    margin-left: -4px;
 }
+
+.theme-coporation {
+    position: relative;
+}
+.com-info-list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 188px;
+  }
+
 .com-info-list img{
     margin-bottom: 10px;
-    z-index: 1;
+    display: block;
 }
+
+.theme-coporation > .long-button{
+    position: absolute; 
+    top: 457px;
+  }
