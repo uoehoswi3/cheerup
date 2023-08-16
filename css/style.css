@@ -9,6 +9,9 @@
 @import "pages/info_company.css";
 @import "pages/community.css";
 @import "pages/info_country.css";
+@import "pages/job_posting.css";
+@import "pages/all.css";
+@import "pages/imployment.css";
 
 @font-face {
   font-family: 'Pretendard-Regular';
@@ -44,16 +47,22 @@ a{
 .main-screen__title{
   font-size: 18px;
   font-weight: 500;
-  margin-top: 32px;
-  margin-bottom: 29px;
   align-items: center;
   display: flex;
   justify-content: space-between;
+  margin-top: 44px;
+  margin-bottom: 29px;
 }
 
 .main-screen__title span:last-child {
   font-size: 12px;
   color: #868686;
+}
+
+.contour {
+  margin-left: -20px;
+  width: 390px;
+  border-top: 0.5px solid #E8E8E8;
 }
 
 .search {
@@ -76,7 +85,7 @@ a{
   border: none;
   accent-color: #575757;
   outline: none;
-  font-size: 14px;
+  font-size: 12px;
   width: 300px;
 }
 
@@ -152,7 +161,11 @@ fieldset {
 .resume {
   display: flex;
   justify-content: space-between;
-  margin-top: 2em;
+  margin-top: 26px;
+}
+.resume__check {
+  font-size: 16px;
+  font-weight: 500;
 }
 .other-info {
   display: flex;
