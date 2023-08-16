@@ -1,6 +1,7 @@
 /* components */
 @import "components/page-header.css";
 @import "components/button.css";
+@import "components/slide-show.css";
 
 @import "variables.css";
 @import "reset.css";
@@ -24,6 +25,7 @@ body {
   font-family: 'Pretendard-Regular';
   width: 390px;
   margin: 0px;
+  
 }
 
 
