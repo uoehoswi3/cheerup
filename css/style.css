@@ -1,10 +1,14 @@
+/* components */
 @import "components/page-header.css";
 @import "components/button.css";
+
 @import "variables.css";
 @import "reset.css";
 
+/* pages */
 @import "pages/info_company.css";
 @import "pages/community.css";
+@import "pages/info_country.css";
 
 @font-face {
   font-family: 'Pretendard-Regular';
