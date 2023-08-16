@@ -72,3 +72,37 @@
     border-radius: 41px;
     margin-left: 10px;
 }
+
+.exchange-rate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 54px;
+}
+
+/* 이거 문제 있음 */
+.exchange-rate__country {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.exchange-rate__info {
+    font-size: 22px;
+    font-weight: 600;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.exchange-rate__value {
+    color: #FF2525;
+}
+
+.graph-icon {
+    margin-right: 5px;
+}
+
+.scroll-img {
+    width:390px;
+    margin-left: -20px;
+    margin-bottom: 43px;
+}
